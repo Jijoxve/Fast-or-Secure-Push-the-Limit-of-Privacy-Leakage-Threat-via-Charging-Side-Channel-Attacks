@@ -1,3 +1,5 @@
+### Fast or Secure? Push the Limit of Privacy Leakage Threat via Charging Side-Channel Attacks
+
 ##### Models Overview
 
 Our models target duplex audio/screen privacy inference in a charging side-channel attack setting, using synchronized two-channel VBUS (voltage) and IBUS (current) traces.
@@ -9,4 +11,6 @@ Used for output operation inference (e.g., recognizing screen display content, l
 ###### Attention-Based ResNet:
 
 Used for input operation inference (e.g., password/keystroke inference, microphone eavesdropping). It extracts dynamic features from two-channel (voltage + current) power traces to identify user input behaviors.
+
+
 
